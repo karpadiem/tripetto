@@ -1,0 +1,77 @@
+.builder {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  top: 0;
+  bottom: 0;
+}
+
+.runner {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 40px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.toggle-preview {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 32%;
+  width: 18%;
+  top: 0;
+  height: 40px;
+  background-color: lightblue;
+  cursor: pointer;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+  
+  &.selected {
+    font-weight: bold;
+  }
+}
+
+.toggle-test {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 14%;
+  width: 18%;
+  top: 0;
+  height: 40px;
+  background-color: lightgreen;
+  font-weight: normal;
+  cursor: pointer;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+  
+  &.selected {
+    font-weight: bold;
+  }
+}
+
+.edit-styles {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  width: 14%;
+  top: 0;
+  height: 40px;
+  background-color: grey;
+  font-weight: normal;
+  cursor: pointer;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
